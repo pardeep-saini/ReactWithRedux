@@ -13,7 +13,7 @@ import {
 import { Link } from "react-router-dom";
 export const mainListItems = (
   <Fragment>
-    <Link to="/dashboard" style={{ textDecoration: "none" }}>
+    {/* <Link to="/dashboard" style={{ textDecoration: "none" }}>
       <ListItem button>
         <ListItemIcon>
           <DashboardIcon />
@@ -52,6 +52,6 @@ export const mainListItems = (
         </ListItemIcon>
         <ListItemText primary="Integrations" />
       </ListItem>
-    </Link>
+    </Link> */}
   </Fragment>
 );

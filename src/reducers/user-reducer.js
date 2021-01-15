@@ -1,7 +1,7 @@
 import { IS_LOGIN, USER_NAME, USER_NAME_TEST, USER_PASSWORD } from "../actions/action-type";
 
 const initialState = {
-  username: "emrah",
+  username: "chetu",
   password: "",
   loading: false,
   success: false,

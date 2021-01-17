@@ -6,6 +6,16 @@ export { default as User } from "../tools/user-service";
 /**
  * Material-ui
  */
+
+export { default as makeStyles } from '@material-ui/core/styles';
+export { default as Table } from '@material-ui/core/Table';
+export { default as TableBody } from '@material-ui/core/TableBody';
+export { default as TableCell } from '@material-ui/core/TableCell';
+
+export { default as TableHead } from '@material-ui/core/TableHead';
+export { default as TableRow } from '@material-ui/core/TableRow';
+export { default as TableContainer } from '@material-ui/core/TableRow';
+
 export { default as Button } from "@material-ui/core/Button";
 export { default as TextField } from "@material-ui/core/TextField";
 export { default as withStyles } from "@material-ui/core/styles/withStyles";
@@ -61,3 +71,13 @@ export { default as PeopleIcon } from "@material-ui/icons/People";
 export { default as BarChartIcon } from "@material-ui/icons/BarChart";
 export { default as LayersIcon } from "@material-ui/icons/Layers";
 export { default as AssignmentIcon } from "@material-ui/icons/Assignment";
+
+
+
+/**
+ * Screen 1
+ */
+// export { default as Box } from '@material-ui/core/Box';
+export { default as Collapse } from '@material-ui/core/Collapse';
+export { default as KeyboardArrowDownIcon } from '@material-ui/icons/KeyboardArrowDown';
+export { default as KeyboardArrowUpIcon } from '@material-ui/icons/KeyboardArrowUp';
